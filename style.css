@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f5f8f7;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 210px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #ddd;
+    position: relative;
+  }
+  
+  .logo img {
+    width: 119px;
+    height: 36px;
+  }
+  
+  /* Меню по центру */
+  .menu {
+    display: flex;
+    position: relative;
+    gap: 45px;
+  }
+  
+  .menu a {
+    text-decoration: none;
+    color: rgba(24, 28, 80, 1);
+    font-size: 14px;
+    font-weight: 500;
+    position: relative;
+  }
+  
+  .menu a.active {
+    color: rgba(24, 28, 80, 1);
+  }
+  
+  /* Правая часть */
+  .right-section {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  /* Иконки */
+  .icons {
+    display: flex;
+    gap: 8px;
+  }
+  
+  .icons img {
+    width: 22px;
+    height: 22px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    padding: 3px;
+    background-color: white;
+  }
+  
+  /* Кнопка "Contact us" */
+  .contact-btn {
+    height: 32px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background-color: white;
+  }
+  
+  .Line {
+  position: absolute;
+  width: 69px;
+  height: 1.77px;
+  top: 10px;
+  left: -10px;
+  border-width: 2px;
+  }
