@@ -1,0 +1,160 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    text-align: center;
+  }
+  
+  .hero {
+    padding: 60px 20px 40px;
+  }
+  
+  .top {
+    color: rgba(102, 112, 238, 1);
+    font-weight: 600;
+    font-size: 16px;
+  }
+  
+  .top2 {
+    color: rgba(14, 40, 89, 1);
+    font-family: 'Hepta Slab', serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    margin-top: -10px;
+  }
+  
+  .features {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding: 60px 20px;
+  }
+  
+  .feature-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    /* max-width: 600px; */
+  }
+  
+  .left {
+    text-align: left;
+  }
+  
+  .right {
+    text-align: right;
+  }
+  
+  .feature img {
+    width: 549px;
+    height: 363px;
+    object-fit: cover;
+    border-radius: 12px;
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .feature-horizontal {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+  }
+  
+
+  .feature h4 {
+    font-size: 20px;
+    font-family: 'Hepta Slab', serif;
+    color: #0e2859;
+    margin: 10px 0 5px;
+  }
+  
+  .feature p {
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    line-height: 1.4;
+  }
+  
+  /* Фон с точками */
+  .photo-wrap {
+    background-image: url('Frame.png') !important;
+width: 480px;
+height: 480px;
+top: 3656px;
+left: 1406px;
+
+  }
+  
+  .map-img {
+    width: 300px;
+    height: auto;
+    border-radius: 8px;
+} 
+
+
+.feature-icon {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    flex-shrink: 0;
+}
+
+
+
+.feature-image-1{
+  text-align: left;
+  margin-left: 80px;
+width: 134px !important;
+height: 121px !important;
+top: 7px;
+left: 10px;
+}
+
+
+
+.feature-image-2{
+  margin-left: 80px;
+  width: 58px !important;
+  height: 90px !important;
+  top: 5px;
+  left: 41px !important;
+  border-radius: 8px;
+}
+
+
+
+
+
+.feature-image-3{
+  margin-left: 10px;
+  width: 130px !important;
+height: 82px !important;
+top: 4276px;
+left: 1037px;
+}
+
+
+.feature-feature {
+  display: flex !important;
+}
+
+
+.feature-list-left{
+  list-style-type: none;
+}
+
+
+.frame-70{
+  margin-left: 150px;
+  
+}
+
+
+.feature-feature{
+  height: 600px;
+}

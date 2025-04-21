@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form class="contact-form">
+        <input type="email" placeholder="Enter Your Email" required>
+        
+        <div class="phone-container">
+            <select>
+                <option value="+1">+1 (USA)</option>
+                <option value="+44">+44 (UK)</option>
+                <option value="+380">+380 (UA)</option>
+            </select>
+            <input type="tel" placeholder="0000000000" required>
+        </div>
+
+        <input type="text" placeholder="Enter Your Business Name" required>
+        
+        <select required>
+            <option value="">Choose Your Amount of Employees</option>
+            <option value="1-10">1-10</option>
+            <option value="11-50">11-50</option>
+            <option value="51-200">51-200</option>
+            <option value="200+">200+</option>
+        </select>
+        
+        <button type="submit">Contact Us</button>
+        <p class="note">*By clicking you agree to the processing of personal data</p>
+    </form>
+</body>
+</html>

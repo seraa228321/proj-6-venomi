@@ -1,0 +1,77 @@
+@font-face {
+    font-family: "ITC Avant Garde Gothic Std";
+    src: url("/fonts/ITCAvantGardeStd-Bk.woff2") format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
+.base1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: auto;
+    margin: auto;
+}
+.img {
+    width: 117px;
+    height: 48.36px;
+    padding-left: 211px;
+}
+.text {
+    color: var(--blue-grey-swatch-33344-b, #33344B);
+    font-family: "ITC Avant Garde Gothic Std";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    max-width: 471px;
+    padding-top: 45px;
+}
+.cont {
+    color: #333;
+    font-family: "Hepta Slab";
+    font-size: 18px;
+    font-style: normal;
+    max-width: 239px;
+    font-weight: 600;
+    line-height: 1.33; /* 133.333% */
+    margin-top: 45;
+}
+.cont2 {
+    color: var(--blue-grey-swatch-7274-a-0, #7274A0);
+    font-family: "ITC Avant Garde Gothic Std";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.71; /* 171.429% */
+}
+.getsoc {
+    color: #333;
+    font-family: "Hepta Slab";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.33; /* 133.333% */
+    margin-top: 45;
+    padding-right: 238px;
+    max-width: 184px;
+}
+.icons {
+    display: flex;
+    width: 47px;
+    height: 47px;
+    flex-shrink: 0;
+    padding-right: 8px;
+}
+.base2 {
+    display: flex;
+    justify-content: space-between;
+    color: #333;
+    font-family: "Hepta Slab";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.33px; /* 133.333% */
+    padding-left: 463px;
+    padding-right: 982px;
+    padding-top: 221px;
+}

@@ -1,0 +1,91 @@
+@font-face {
+  font-family: "ITC Avant Garde Gothic Std";
+  src: url("/fonts/ITCAvantGardeStd-Bk.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background-color: #f5f8f7;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 210px;
+  background-color: #ffffff;
+  border-bottom: 1px solid #ddd;
+  position: relative;
+}
+
+.logo img {
+  width: 119px;
+  height: 36px;
+}
+
+/* Меню по центру */
+.menu {
+  display: flex;
+  position: relative;
+  gap: 45px;
+}
+
+.menu a {
+  color: var(--blue-swatch-181-c-50, #181c50);
+  text-decoration: none;
+  font-family: "ITC Avant Garde Gothic Std";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 1.6; /* 168.75% */
+  letter-spacing: 0.8px;
+}
+
+.menu a.active {
+  color: rgba(24, 28, 80, 1);
+}
+
+/* Правая часть */
+.right-section {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+/* Иконки */
+.icons {
+  display: flex;
+  gap: 8px;
+}
+
+.icons img {
+  width: 47px;
+  height: 47px;
+  background-color: white;
+}
+
+/* Кнопка "Contact us" */
+.but {
+  display: inline-flex;
+  cursor: pointer;
+  height: 47px;
+  padding: 15px 25px;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 12px;
+  border: 1px solid var(--blue-swatch-6670-ee, #6670ee);
+  background: var(--blue-swatch-ffffff, #fff);
+  box-shadow: 0px 12px 19px 0px rgba(93, 110, 171, 0.12);
+}
+
+.Line {
+  position: absolute;
+  width: 69px;
+  height: 1.77px;
+  top: 10px;
+  left: 0px;
+  border-width: 2px;
+}
