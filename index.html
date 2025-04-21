@@ -7,11 +7,10 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
   <header class="header">
     <!-- Логотип -->
     <div class="logo">
-      <img src="photo_2025-04-10_17-49-38.jpg" alt="Banjaxed Logo" />
+      <img src="img/banjaxed.svg" alt="" />
     </div>
 
     <!-- Меню -->
@@ -21,21 +20,93 @@
 <a href="">Why Banjaxed?</a>
 <a href="">Partner with us</a>
       <div class="Line">
-        <img src="image.png" alt="Line" />
+        <img src="img/line.svg" alt="" />
         </div>
     </nav>
 
     <!-- Правая секция -->
     <div class="right-section">
       <div class="icons">
-        <img src="https://i.ibb.co/BV0xXnwq/01.png" alt="LinkedIn" /> 
-        <img src="https://i.postimg.cc/YCV6pV11/02.png" alt="Facebook" />
-        <img src="https://i.postimg.cc/LXkL38GT/03.png" alt="YouTube" />
-        <img src="https://i.postimg.cc/mkDk1Z4h/04.png" alt="Instagram" />
+        <img src="img/in.svg" alt="LinkedIn" /> 
+        <img src="img/facebook.svg" alt="Facebook" />
+        <img src="img/youtube.svg" alt="YouTube" />
+        <img src="img/instagram.svg" alt="Instagram" />
       </div>
-      <img src="https://i.postimg.cc/mDZ2KZtV/05.png" alt="Contact us" class="contact-btn" />
+      <button class="but" type="button">Сontact us</button>
     </div>
   </header>
+  <div class="hero-container">
+    <div class="hero-text">
+      <div class="hero-text-container">
+        <div class="hero-title">
+          We create <img style="display: inline" src="raving.svg" /><p class="hero-title-salesforce">
+          Salesforce 
+          </p> fans
+        </div>
+        
+        <div class="hero-description">
+          Banjaxed is an Irish slang term for “broken, incapacitated, confounded or totally ruined.” But luckily, we have solutions for even the most banjaxed Salesforce situations. Partner with us to transform your org into an efficient, streamlined Salesforce experience.
+        </div>
+      </div>
+      
+      <div class="hero-buttons">
+        <button class="partner-button">
+          Partner with us
+        </button>
 
+        <div class="line"></div>
+        
+        <div class="youtube-button-container">
+          <a href="https://www.youtube.com" class="youtube-button-text">
+            <div style="display: flex; align-items: center; gap: 15px">
+              <img src="youtube-icon.svg" />
+              <span class="screen-size">Watch video presentation</span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+      
+    <div class="hero-picture">
+      <div class="hero-tent-container">
+        <div class="hero-rectangle-outer">
+          <div class="hero-rectangle-inner"></div>
+        </div>
+        <img class="hero-tent-image" src="tent.png" />
+        <img class="hero-fire-image" src="fire.gif" />
+        <img class="hero-tree-image" src="tree.svg" />
+        <img class="hero-leaves-1-image" src="leaves-1.svg" />
+        <img class="hero-leaves-2-image" src="leaves-2.svg" />
+        <img class="hero-leaves-3-image" src="leaves-3.svg" />
+        <img id="openPromoModal" class="hero-click-image" src="click.svg" />
+      </div>
+    </div>
+  </div>
+
+  <div class="hero-modal-window" id="heroModal">
+    <div class="modal-background"></div>
+    <div class="modal-container">
+      <div class="modal-body1">
+        <div class="modal-body2">
+          <div class="vector-container">
+            <img class="vector-left-image" src="vector-modal-left.svg" />
+            <img class="vector-right-image" src="vector-modal-right.svg" />
+            <img class="vector-dots-image" src="frame.svg" />
+            <div class="text-body">
+              <div class="modal-title-container">
+                <div class="modal-text-title">Liti<span class="modal-text-title-bold">Quest</span></div>
+                <div class="modal-text-subtitle">PLAINTIFF</div>
+              </div>
+
+              <div class="modal-text-description">For a limited time, we are offering a special promotion to our LitiQuest connections, giving you access to top-of-the-line Salesforce team services, data migration and implementation at a fraction of the cost</div>
+
+              <button class="promo-button">Use The Promo</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
 </body>
 </html>
