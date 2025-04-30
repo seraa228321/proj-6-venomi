@@ -1,12 +1,6 @@
-@font-face {
-  font-family: "ITC Avant Garde Gothic Std";
-  src: url("/fonts/ITCAvantGardeStd-Bk.woff2") format("woff2");
-  font-weight: normal;
-  font-style: normal;
-}
 body {
   margin: 0;
-  font-family: "Segoe UI", sans-serif;
+  font-family: 'Segoe UI', sans-serif;
   background-color: #f5f8f7;
 }
 
@@ -21,30 +15,43 @@ body {
 }
 
 .logo img {
-  width: 119px;
-  height: 36px;
+  width: 96px;
+  height: 40px;
 }
 
-/* Меню по центру */
+/* Меню */
 .menu {
   display: flex;
+  align-items: center;
   position: relative;
+}
+
+.menu ul {
+  display: flex;
   gap: 45px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
-.menu a {
-  color: var(--blue-swatch-181-c-50, #181c50);
+.menu li a {
   text-decoration: none;
-  font-family: "ITC Avant Garde Gothic Std";
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 300;
-  line-height: 1.6; /* 168.75% */
-  letter-spacing: 0.8px;
+  color: rgba(24, 28, 80, 1);
+  font-size: 14px;
+  font-weight: 500;
 }
 
-.menu a.active {
+.menu li a.active {
   color: rgba(24, 28, 80, 1);
+}
+
+/* Линия под Services */
+.Line {
+  position: absolute;
+  width: 69px;
+  height: 1.77px;
+  top: 10px;
+  left: -10px;
 }
 
 /* Правая часть */
@@ -54,38 +61,28 @@ body {
   gap: 15px;
 }
 
-/* Иконки */
 .icons {
   display: flex;
   gap: 8px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
-.icons img {
-  width: 47px;
-  height: 47px;
+.icons li img {
+  width: 22px;
+  height: 22px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 3px;
   background-color: white;
 }
 
-/* Кнопка "Contact us" */
-.but {
-  display: inline-flex;
+/* Кнопка Контакт ас */
+.contact-btn {
+  height: 32px;
   cursor: pointer;
-  height: 47px;
-  padding: 15px 25px;
-  align-items: center;
-  gap: 10px;
-  flex-shrink: 0;
-  border-radius: 12px;
-  border: 1px solid var(--blue-swatch-6670-ee, #6670ee);
-  background: var(--blue-swatch-ffffff, #fff);
-  box-shadow: 0px 12px 19px 0px rgba(93, 110, 171, 0.12);
-}
-
-.Line {
-  position: absolute;
-  width: 69px;
-  height: 1.77px;
-  top: 10px;
-  left: 0px;
-  border-width: 2px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background-color: white;
 }
