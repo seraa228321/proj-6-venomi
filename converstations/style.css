@@ -13,13 +13,13 @@ li {
   position: relative;
 }
 .iconone::marker {
-  content: url(img/one.svg);
+  content: url(img/soo.svg);
 }
 .icontwo::marker {
-  content: url(img/two.svg);
+  content: url(img/otpechatok.svg);
 }
 .iconthree::marker {
-  content: url(img/three.svg);
+  content: url(img/dvepalke.svg);
 }
 
 .block1 {
