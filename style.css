@@ -63,8 +63,6 @@
 }
 
 .icons {
-  width: 47px;
-  height: 47px;
   flex-shrink: 0;
   display: flex;
   gap: 8px;
