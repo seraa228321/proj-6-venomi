@@ -1468,8 +1468,6 @@ button:hover {
 }
 .icons {
   display: flex;
-  width: 47px;
-  height: 47px;
   flex-shrink: 0;
   padding-right: 8px;
 }
