@@ -71,6 +71,9 @@
 }
 
 .icons li img {
+  width: 37px;
+  height: 37px;
+  flex-shrink: 0;
   border: 1px solid #ccc;
   border-radius: 6px;
   padding: 3px;
