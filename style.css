@@ -61,7 +61,6 @@
   align-items: center;
   gap: 15px;
 }
-
 .icons {
   flex-shrink: 0;
   display: flex;
