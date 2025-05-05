@@ -1470,6 +1470,9 @@ button:hover {
   max-width: 184px;
 }
 .icons {
+  width: 47px;
+  height: 47px;
+  flex-shrink: 0;
   display: flex;
   flex-shrink: 0;
   padding-right: 8px;
