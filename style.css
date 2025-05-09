@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f5f8f7;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 210px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #ddd;
+    position: relative;
+  }
+  
+  .logo img {
+    width: 96px;
+    height: 40px;
+  }
+  
+  /* Меню */
+  .menu {
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  
+  .menu ul {
+    display: flex;
+    gap: 45px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu li a {
+    text-decoration: none;
+    color: rgba(24, 28, 80, 1);
+    font-size: 14px;
+    font-weight: 500;
+  }
+  
+  .menu li a.active {
+    color: rgba(24, 28, 80, 1);
+  }
+  
+  
+  .active{
+    gap: 15px ; 
+  
+  }
+  
+  /* Линия под Services */
+  .Line {
+    position: absolute;
+    width: 69px;
+    height: 1.77px;
+    top: 10px;
+    left: -10px;
+  }
+  
+  /* Правая часть */
+  .right-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    gap: 15px;
+  }
+  
+  .icons {
+    display: flex;
+    gap: 8px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .icons li img {
+    width: 18px;
+    height: 18px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    padding: 3px;
+    background-color: white;
+  }
+  
+  /* Кнопка Контакт ас */
+  .contact-btn {
+    cursor: pointer;
+    top: 22px;
+    width: 100px;
+    height: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: rgba(82, 91, 198, 1);
+    height: 32px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background-color: white;
+  }
+  
