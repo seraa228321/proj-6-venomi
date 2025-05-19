@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  font-family: 'Noah', sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: #f8f8f8;
+  padding: 40px;
+  gap: 40px;
+}
+
+.text-block {
+  flex: 2;
+}
+
+.contacts-block,
+.social-block {
+  flex: 1;
+}
+
+.textmain {
+  font-family: 'Hepta Slab', serif;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #333;
+}
+
+.contacts, .contacts2, .social-block h3 {
+  margin: 8px 0;
+  color: #444;
+}
+
+.social-icons {
+  display: flex;
+  gap: 12px;
+  margin-top: 10px;
+}
+
+.social-icons img {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+}
+

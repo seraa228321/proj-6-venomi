@@ -1,0 +1,103 @@
+@font-face {
+    font-family: "ITC Avant Garde Gothic Std";
+    src: url("/font/ITCAvantGardeStd-Bk.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+  }
+  .all2 {
+    position: relative;
+    bottom: 300px;
+}
+  .metda {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: auto;
+      margin: auto;
+    color: #0e2859;
+    font-family: "Hepta Slab";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 211px;
+  }
+  .image {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 280px;
+    height: 280px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #ecedcb;
+    margin-left: 211px;
+  }
+  .text {
+    display: flex;
+    align-items: center;
+    color: var(--blue-grey-swatch-26273-a, #26273a);
+    font-family: "ITC Avant Garde Gothic Std";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 211px;
+    margin-right: 221px;
+  }
+  .text2 {
+    display: flex;
+    align-items: center;
+    color: var(--blue-grey-swatch-8-b-8-ec-2, #8b8ec2);
+    font-family: "ITC Avant Garde Gothic Std";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.42; /* 142.857% */
+    letter-spacing: 0.7px;
+  }
+  .im2 {
+      margin-left: 25px;
+  }
+  .im3 {
+      margin-left: 25px;
+  }
+  .im4 {
+      margin-left: 28px;
+  }
+  .im5 {
+      margin-left: 24px;
+  }
+  .tx2 {
+      margin-left: 208px;
+  }
+  .tx3 {
+      margin-left: 183px;
+  }
+  .tx4 {
+      margin-left: 232px;
+  }
+  .tx5 {
+      margin-left: 178px;
+  }
+  .txx1 {
+      margin-left: 211px;
+      width: 262px;
+  }
+  .txx2 {
+      width: 262px;
+      margin-left: 44px;
+  }
+  .txx3 {
+      width: 262px;
+      margin-left: 44px;
+  }
+  .txx4 {
+      width: 262px;
+      margin-left: 44px;
+  }
+  .txx5 {
+      width: 262px;
+      margin-left: 44px;
+  }
+  
