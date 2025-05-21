@@ -77,6 +77,8 @@
 .fourblocks {
   margin: 0 auto;
   width: fit-content;
+  position: relative;
+
 }
 .pipec12 {
   display: grid;
@@ -174,33 +176,33 @@
   bottom: 503px;
 }
 .palka1 {
-  position: relative;
-  bottom: 724px;
-  left: 384px;
+  position: absolute;
+  top: 234px;
+  left: -46px;
   z-index: 0;
 }
 .palka2 {
-  position: relative;
-  bottom: 719px;
-  left: 387px;
+  position: absolute;
+  bottom: 590px;
+  left: 456px;
   z-index: 0;
 }
 .palka3 {
-  position: relative;
-  bottom: 596px;
-  right: 622px;
+  position: absolute;
+  bottom: 392px;
+  right: 15px;
   z-index: 0;
 }
 .palka4 {
-  position: relative;
-  bottom: 777px;
-  left: 883px;
+  position: absolute;
+  bottom: 390px;
+  left: -18px;
   z-index: 0;
 }
 .govnokakoeto {
-  position: relative;
-  bottom: 813px;
-  left: 321px;
+  position: absolute;
+  bottom: 424px;
+  left: -78px;
   z-index: 1;
 }
 .textandyeah {
@@ -226,8 +228,8 @@
 }
 .linee {
   position: relative;
-  left: 180px;
-  bottom: 515px;
+  left: 181px;
+  bottom: 227px;
   width: 1516px;
   height: 1px;
   background: linear-gradient(
