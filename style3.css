@@ -10,10 +10,6 @@
     display: flex;
   }
   
-  .all {
-    position: relative;
-    bottom: 350px;
-}
   li {
     padding-left: 16px;
     position: relative;
@@ -30,7 +26,7 @@
   
   .block1 {
     border: 10px solid #000;
-    width: 1260px;
+    width: 1476px;
     position: relative;
     height: 637px;
     border-radius: 40px;
@@ -178,7 +174,6 @@
     font-family: "Hepta Slab";
     font-size: 32px;
     font-style: normal;
-    font-weight: 1000;
     margin-left: 65px;
     margin-top: 84px;
   }
@@ -213,7 +208,6 @@
     font-family: "Hepta Slab";
     font-size: 32px;
     font-style: normal;
-    font-weight: 1000;
     line-height: normal;
     padding-left: 79px;
     padding-top: 53px;

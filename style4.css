@@ -4,12 +4,7 @@
     font-weight: normal;
     font-style: normal;
   }
-  .all2 {
-    position: relative;
-    bottom: 100px;
-}
-  
-.metda {
+  .metda {
       display: flex;
       justify-content: space-between;
       align-items: center;
