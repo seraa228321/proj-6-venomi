@@ -44,12 +44,6 @@ body {
   display: inline;
   font-weight: bold;
   margin: 0;
-  font-family: 'Hepta Slab';
-  font-weight: 300px;
-  font-size: 53px;
-  line-height: 100%;
-  color: #1A1A29;
-
 }
 
 .hero-description {
@@ -226,27 +220,17 @@ body {
   width: 100%;
 }
 
-.vector-left-image {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-}
-
-.vector-right-image {
-  position: absolute;
-  right: 0;
-}
-
-.vector-dots-image {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-}
-
 .text-body {
   position: absolute;
   right: 103px;
   top: 86px;
+}
+
+.close-icon {
+  position: absolute;
+  width: 30px;
+  top: 20px;
+  right: 20px;
 }
 
 .modal-title-container {
